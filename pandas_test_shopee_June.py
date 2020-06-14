@@ -8,8 +8,10 @@ Created on Mon Jun  8 14:51:59 2020
 
 import pandas as pd
 #1a)
-df = pd.read_excel("/Users/jameselijah/Desktop/Shopee/Test_Pandas_.xlsx")
+df = pd.read_excel("/Users/jameselijah/Documents/GitHub/Shopee/Test_Pandas_.xlsx")
 
+
+'''
 #1b)
 column = list(df.columns)
 
@@ -78,5 +80,5 @@ is_preffered = sorting2.is_preferred >= 1
 
 temp = sorting2[is_preffered]
 
-
+'''
     
